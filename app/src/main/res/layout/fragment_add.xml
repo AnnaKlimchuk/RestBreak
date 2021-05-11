@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start"
+            android:layout_margin="5dp"
+            android:background="@color/colorLightGreen"
+            tools:ignore="NestedWeights" />
+
+        <Button android:id="@+id/stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/stop"
+            android:layout_margin="5dp"
+            android:background="@color/colorLightGreen"
+            tools:ignore="NestedWeights" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text=""
+        android:background="@color/colorLightGreen"
+        android:inputType="textMultiLine"
+        android:layout_margin="5dp"
+        android:hint="@string/description"
+        android:autofillHints="description"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/delete"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_gravity="center"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/notification_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_notification"
+            android:layout_margin="5dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</LinearLayout>

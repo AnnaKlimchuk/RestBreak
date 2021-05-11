@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Plan">
+
+    <TextView
+        android:id="@+id/plan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="@string/plan_name"
+        android:layout_margin="20dp"
+        android:textColor="@color/colorBlue"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:name="com.example.restbreak.ShowFragment"
+        android:id="@+id/fragment_show"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/add"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorBlue" />
+
+        <TextView
+            android:id="@+id/add_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add_default"
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorBlue" />
+
+        <TextView
+            android:id="@+id/delete_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete_all"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorBlue" />
+    </LinearLayout>
+</LinearLayout>

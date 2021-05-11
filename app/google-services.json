@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525395800623",
+    "project_id": "restbreak",
+    "storage_bucket": "restbreak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525395800623:android:1bf8b23cbe65af8c93ccda",
+        "android_client_info": {
+          "package_name": "com.example.restbreak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525395800623-ms8q4e35b90gsqu63uuh8in1ghk00tmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHI7Ka08xiftpgnocy1mI0JoD24zEqznU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525395800623-ms8q4e35b90gsqu63uuh8in1ghk00tmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

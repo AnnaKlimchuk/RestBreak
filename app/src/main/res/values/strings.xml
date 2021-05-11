@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RestBreak</string>
+    <string name="plan">план</string>
+    <string name="profile">профиль</string>
+    <string name="plan_name">План уведомлений\nна сегодня</string>
+    <string name="next_notification">следующее уведомление</string>
+    <string name="wait_notification">до него осталось</string>
+    <string name="minute">минут</string>
+    <string name="not_set">\?</string>
+    <string name="change">изменить</string>
+    <string name="add">добавить</string>
+    <string name="add_default">заполнить по умолчанию</string>
+    <string name="start">начало %s</string>
+    <string name="stop">окончание %s</string>
+    <string name="description">описание</string>
+    <string name="delete">удалить</string>
+    <string name="delete_all">удалить все уведомления на сегодня</string>
+    <string name="set">выставить рабочее время</string>
+    <string name="save_notification">сохранить уведомление длительностью %d минут</string>
+</resources>
